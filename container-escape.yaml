@@ -47,8 +47,8 @@ spec:
       labels:
         app: container-escape
     spec:
-      nodeSelector:
-        cortexcloud: app
+#      nodeSelector:
+#        cortexcloud: app
       hostPID: true
       hostIPC: true
       #hostNetwork: true
